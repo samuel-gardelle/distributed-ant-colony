@@ -1,0 +1,64 @@
+digraph graph2194 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;65"]
+9 -> 10 [color=black,label="7;99"]
+9 -> 11 [color=black,label="7;64"]
+
+
+10 -> 9 [color=black,label="2;57"]
+10 -> 11 [color=black,label="6;123"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;111"]
+
+
+0 -> 1 [color=black,label="2;94"]
+0 -> 2 [color=black,label="8;252"]
+
+
+1 -> 0 [color=black,label="1;63"]
+1 -> 2 [color=black,label="6;138"]
+
+
+2 -> 0 [color=black,label="1;142"]
+2 -> 1 [color=black,label="4;150"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

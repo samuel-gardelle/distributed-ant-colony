@@ -1,0 +1,34 @@
+digraph graph6200 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;198"]
+9 -> 10 [color=black,label="7;237"]
+9 -> 11 [color=black,label="7;177"]
+
+
+10 -> 9 [color=black,label="2;135"]
+10 -> 11 [color=black,label="6;326"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;307"]
+
+}

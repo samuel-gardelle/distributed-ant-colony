@@ -1,0 +1,65 @@
+digraph graph323 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;9"]
+9 -> 10 [color=black,label="7;19"]
+9 -> 11 [color=black,label="7;12"]
+
+
+10 -> 9 [color=black,label="2;12"]
+10 -> 11 [color=black,label="6;27"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;26"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 -> 9 [color=black,label="9;4"]
+6 -> 7 [color=black,label="7;5"]
+6 -> 8 [color=black,label="8;3"]
+
+
+7 -> 6 [color=black,label="8;3"]
+7 -> 8 [color=black,label="0;2"]
+
+
+8 -> 6 [color=black,label="8;11"]
+8 -> 7 [color=black,label="2;0"]
+
+
+
+
+
+
+
+}

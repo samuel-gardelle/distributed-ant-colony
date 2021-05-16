@@ -1,0 +1,34 @@
+digraph graph8749 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;279"]
+9 -> 10 [color=black,label="7;354"]
+9 -> 11 [color=black,label="7;240"]
+
+
+10 -> 9 [color=black,label="2;201"]
+10 -> 11 [color=black,label="6;463"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;431"]
+
+}

@@ -1,0 +1,33 @@
+digraph graph8352 {
+
+
+0 -> 1 [color=black,label="2;340"]
+0 -> 2 [color=black,label="8;1004"]
+
+
+1 -> 0 [color=black,label="1;236"]
+1 -> 2 [color=black,label="6;530"]
+
+
+2 -> 0 [color=black,label="1;585"]
+2 -> 1 [color=black,label="4;574"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

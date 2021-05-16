@@ -1,0 +1,127 @@
+digraph graph2087 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;61"]
+9 -> 10 [color=black,label="7;95"]
+9 -> 11 [color=black,label="7;62"]
+
+
+10 -> 9 [color=black,label="2;56"]
+10 -> 11 [color=black,label="6;118"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;107"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 -> 9 [color=black,label="9;38"]
+6 -> 7 [color=black,label="7;30"]
+6 -> 8 [color=black,label="8;27"]
+
+
+7 -> 6 [color=black,label="8;23"]
+7 -> 8 [color=black,label="0;7"]
+
+
+8 -> 6 [color=black,label="8;84"]
+8 -> 7 [color=black,label="2;0"]
+
+
+
+
+
+
+
+
+0 -> 1 [color=black,label="2;87"]
+0 -> 2 [color=black,label="8;241"]
+
+
+1 -> 0 [color=black,label="1;59"]
+1 -> 2 [color=black,label="6;129"]
+
+
+2 -> 0 [color=black,label="1;136"]
+2 -> 1 [color=black,label="4;141"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 -> 9 [color=black,label="4;0"]
+3 -> 4 [color=black,label="9;0"]
+3 -> 5 [color=black,label="0;0"]
+
+
+4 -> 9 [color=black,label="1;0"]
+4 -> 3 [color=black,label="4;0"]
+4 -> 5 [color=black,label="7;0"]
+
+
+5 -> 3 [color=black,label="3;0"]
+5 -> 4 [color=black,label="5;0"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

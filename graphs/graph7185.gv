@@ -1,0 +1,95 @@
+digraph graph7185 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;230"]
+9 -> 10 [color=black,label="7;283"]
+9 -> 11 [color=black,label="7;201"]
+
+
+10 -> 9 [color=black,label="2;161"]
+10 -> 11 [color=black,label="6;390"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;366"]
+
+
+0 -> 1 [color=black,label="2;296"]
+0 -> 2 [color=black,label="8;845"]
+
+
+1 -> 0 [color=black,label="1;206"]
+1 -> 2 [color=black,label="6;449"]
+
+
+2 -> 0 [color=black,label="1;488"]
+2 -> 1 [color=black,label="4;480"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 -> 9 [color=black,label="9;142"]
+6 -> 7 [color=black,label="7;113"]
+6 -> 8 [color=black,label="8;93"]
+
+
+7 -> 6 [color=black,label="8;87"]
+7 -> 8 [color=black,label="0;21"]
+
+
+8 -> 6 [color=black,label="8;296"]
+8 -> 7 [color=black,label="2;0"]
+
+
+
+
+
+
+
+}

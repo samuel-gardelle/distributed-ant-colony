@@ -1,0 +1,96 @@
+digraph graph5403 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;173"]
+9 -> 10 [color=black,label="7;215"]
+9 -> 11 [color=black,label="7;151"]
+
+
+10 -> 9 [color=black,label="2;122"]
+10 -> 11 [color=black,label="6;292"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;272"]
+
+
+
+
+
+
+
+
+3 -> 9 [color=black,label="4;0"]
+3 -> 4 [color=black,label="9;0"]
+3 -> 5 [color=black,label="0;0"]
+
+
+4 -> 9 [color=black,label="1;0"]
+4 -> 3 [color=black,label="4;0"]
+4 -> 5 [color=black,label="7;0"]
+
+
+5 -> 3 [color=black,label="3;0"]
+5 -> 4 [color=black,label="5;0"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 -> 1 [color=black,label="2;224"]
+0 -> 2 [color=black,label="8;635"]
+
+
+1 -> 0 [color=black,label="1;157"]
+1 -> 2 [color=black,label="6;340"]
+
+
+2 -> 0 [color=black,label="1;358"]
+2 -> 1 [color=black,label="4;367"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

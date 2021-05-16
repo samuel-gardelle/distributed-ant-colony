@@ -1,0 +1,64 @@
+digraph graph8039 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;252"]
+9 -> 10 [color=black,label="7;323"]
+9 -> 11 [color=black,label="7;220"]
+
+
+10 -> 9 [color=black,label="2;178"]
+10 -> 11 [color=black,label="6;432"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;400"]
+
+
+0 -> 1 [color=black,label="2;331"]
+0 -> 2 [color=black,label="8;956"]
+
+
+1 -> 0 [color=black,label="1;224"]
+1 -> 2 [color=black,label="6;510"]
+
+
+2 -> 0 [color=black,label="1;560"]
+2 -> 1 [color=black,label="4;542"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

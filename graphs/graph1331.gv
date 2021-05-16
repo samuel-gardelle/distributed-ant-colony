@@ -1,0 +1,65 @@
+digraph graph1331 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;39"]
+9 -> 10 [color=black,label="7;64"]
+9 -> 11 [color=black,label="7;40"]
+
+
+10 -> 9 [color=black,label="2;37"]
+10 -> 11 [color=black,label="6;85"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;76"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 -> 9 [color=black,label="9;24"]
+6 -> 7 [color=black,label="7;24"]
+6 -> 8 [color=black,label="8;15"]
+
+
+7 -> 6 [color=black,label="8;18"]
+7 -> 8 [color=black,label="0;5"]
+
+
+8 -> 6 [color=black,label="8;52"]
+8 -> 7 [color=black,label="2;0"]
+
+
+
+
+
+
+
+}

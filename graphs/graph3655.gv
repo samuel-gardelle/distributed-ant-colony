@@ -1,0 +1,127 @@
+digraph graph3655 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 -> 9 [color=black,label="9;67"]
+6 -> 7 [color=black,label="7;55"]
+6 -> 8 [color=black,label="8;50"]
+
+
+7 -> 6 [color=black,label="8;43"]
+7 -> 8 [color=black,label="0;11"]
+
+
+8 -> 6 [color=black,label="8;151"]
+8 -> 7 [color=black,label="2;0"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 -> 8 [color=black,label="5;113"]
+9 -> 10 [color=black,label="7;159"]
+9 -> 11 [color=black,label="7;101"]
+
+
+10 -> 9 [color=black,label="2;93"]
+10 -> 11 [color=black,label="6;209"]
+
+
+11 -> 9 [color=black,label="0;0"]
+11 -> 10 [color=black,label="4;192"]
+
+
+0 -> 1 [color=black,label="2;154"]
+0 -> 2 [color=black,label="8;416"]
+
+
+1 -> 0 [color=black,label="1;105"]
+1 -> 2 [color=black,label="6;220"]
+
+
+2 -> 0 [color=black,label="1;239"]
+2 -> 1 [color=black,label="4;236"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 -> 9 [color=black,label="4;0"]
+3 -> 4 [color=black,label="9;0"]
+3 -> 5 [color=black,label="0;0"]
+
+
+4 -> 9 [color=black,label="1;0"]
+4 -> 3 [color=black,label="4;0"]
+4 -> 5 [color=black,label="7;0"]
+
+
+5 -> 3 [color=black,label="3;0"]
+5 -> 4 [color=black,label="5;0"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
