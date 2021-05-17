@@ -8,6 +8,8 @@ Un algorithme de fourmi est un algorithme qui permet de trouver le plus court ch
 Un cluster est utilisé pour effectuer ces traitements. La communication entre les noeuds du cluster peut se faire de différentes manières. On utilise ici une librairie qui fournie une sémantique abstraite pour la communication des messages. Différents "transports" peuvent ensuite être utilisés selon le mécanisme de transfert que l'utilisateur choisit.
 (un serveur implémentant le protocôle AMQP, des flux TCPs, des sockets unix, ou une implémentation spécifique).
 
+# Principe
+
 Chaque noeud du cluster ne charge qu'un sous-graphe (de préférence connexe) du graphe entier. Il a connaissance des arrêtes au sein de ce sous-graphe et des arrêtes qui vont d'un sommet de ce sous-graphe à un sommet en dehors de ce sous-graphe.
 
 Chaque noeud du cluster est chargé de faire évoluer son sous-graphe en faisant se déplacer des fourmis dessus. Ces fourmis peuvent soit se déplacer selon une arrête interne, soit venir d'une arrête provenant d'un sommet extérieur soit sortir du sous-graphe par une arrête qui va vers un sommet extérieur.
