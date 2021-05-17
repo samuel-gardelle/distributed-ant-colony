@@ -34,9 +34,9 @@ Les graphes qui sont étudiés sont générés aléatoirement (générateur lin�
 Haskell ne dispose pas dans sa librairie standart de structure de tableau.
 On utilise donc la librairie 'massiv' qui propose des opérations sur les tableaux.
 
-La monade State (le transformeur StateT plus exactement) permet d'implémenter des opérations sur un état mutable tout en gardant un code sans effet de bord.
+La monade `State` (le transformeur StateT plus exactement) permet d'implémenter des opérations sur un état mutable tout en gardant un code sans effet de bord.
 
-La librairie 'binary' est utilisée pour la sérialization des messages. Elle propose directement de dériver des codages à partid d'un type (via les Generics de GHC) donc aucun encodage spécifique n'est spécifié.
+La librairie `binary` est utilisée pour la sérialization des messages. Elle propose directement de dériver des codages à partid d'un type (via les `Generics` de GHC) donc aucun encodage spécifique n'est spécifié.
 
 # TODO
 
