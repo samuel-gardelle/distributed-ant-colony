@@ -21,7 +21,7 @@ Lorsqu'une fourmi arrive à un sommet designé comme étant de la nourriture ell
 
 L'affichage du graphe dans son ensemble est dedié à un noeud distingué qui a pour tâche de receuillir le contenu des sous-graphes qui lui est régulièrement envoyé. Ce noeud concatène ces sous-graphes et génère un fichier au format de la commande `dot` qui permet de générer des images du graphe entier.
 
-Un autre noeud distingué supervise l'ordre des opérations de chaque noeud. Il envoie un message aux noeuds chargés de sous-graphes lorsqu'ils doivent faire avancer leurs fourmis d'une arrête. Il fait aussi office de "routeur de fourmis" lorsqu'une fourmi doit être transferée d'un noeud à l'autre. Enfin, il ordonne l'envoie des informations d'affichage au noeud dedié à l'affichage et lui ordonne la sauvegarde d'une image.
+Un autre noeud distingué supervise l'ordre des opérations de chaque noeud. Il envoie un message aux noeuds chargés de sous-graphes lorsqu'ils doivent faire avancer leurs fourmis d'une arrête. Il fait aussi office de "routeur de fourmis" lorsqu'une fourmi doit être transférée d'un noeud à l'autre. Enfin, il ordonne l'envoie des informations d'affichage au noeud dedié à l'affichage et lui ordonne la sauvegarde d'une image.
 
 Cet algorithme converge souvent rapidement vers une solution optimale mais est moins rapide que Dijkstra. En revanche il a l'avantage d'être facilement distribuable et de pouvoir s'adapter à évantuels changements du graphe.
 
@@ -34,14 +34,14 @@ Les graphes qui sont étudiés sont générés aléatoirement (générateur lin�
 Haskell ne dispose pas dans sa librairie standart de structure de tableau.
 On utilise donc la librairie 'massiv' qui propose des opérations sur les tableaux.
 
-La monade `State` (le transformeur StateT plus exactement) permet d'implémenter des opérations sur un état mutable tout en gardant un code sans effet de bord.
+La monade `State` (le transformeur de monade `StateT` plus exactement) permet d'implémenter des opérations sur un état mutable tout en gardant un code sans effet de bord.
 
-La librairie `binary` est utilisée pour la sérialization des messages. Elle propose directement de dériver des codages à partid d'un type (via les `Generics` de GHC) donc aucun encodage spécifique n'est spécifié.
+La librairie `binary` est utilisée pour la sérialization des messages. Elle propose directement de dériver des encodeurs/décodeurs à partir d'un type algébrique (via les `Generics` de GHC) sans avoir à écrire la sérialization à la main.
 
 # TODO
 
-- Interface en ligne de commande avec la librairie 'opt-parse-applicative'
+- Interface en ligne de commande avec `opt-parse-applicative`
 - Configuration dans un fichier YAML ou JSON.
-- Passage de la configuration dans le code avec une monade ReaderT
+- Passage de la configuration dans le code avec un transformeur de monade `ReaderT`
 
 
